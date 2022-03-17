@@ -1,0 +1,28 @@
+.session {
+    padding: 10px;
+    background: #caffbf;
+    margin: 20px 20px;
+    border: 1.5px #a0c09a;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 0 #969696;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img {
+    width: 40vw;
+    height: 40vw;
+    /*grid-row: 1 / span 4;*/
+    left: 10px;
+    border-radius: 4px;
+    align-self: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2 {
+    font-size: 4vw;
+    text-align: start;
+    font-family: 'Catamaran', sans-serif;
+}
